@@ -79,9 +79,11 @@ body {
   background: url('img/bg-desktop.webp');
   font-family: Bai Jamjuree;
 }
+
 #container {
   display:flex ;
 }
+
 .cartao {
   margin: 1rem 1rem;
   background-color: aqua;
@@ -94,6 +96,7 @@ body {
   height: 100%;
   background-color: var(--card-front-color);
 }
+
 .cartao__conteudo h3 {
   color: var(--text-color);
   border: 1px solid var(--text-color);
@@ -104,14 +107,17 @@ body {
   border-radius: 0.6rem;
   font-size: 1vw;
 }
+
 .cartao__conteudo__pergunta p{
   color: var(--text-color);
   font-weight: 500;
 }
+
 .cartao__conteudo__resposta p{
   color: var(--card-back-color);
   font-weight: 700;
 }
+
 footer {
   background-color: black;
   color: white;
@@ -120,6 +126,7 @@ footer {
   width:100%;
   height:2rem;
 }
+
 footer p{
   text-align: center;
   font-size: 0.6rem;
