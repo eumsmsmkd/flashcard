@@ -70,10 +70,11 @@
     font-style: italic;
   }
   :root {
-    --text-color: #00e025;
+    --text-color: #DBE4EF;
     --card-front-color: #144480;
-    --card-back-color: #909918;
+    --card-back-color: #00F4BF;
 }
+
 body {
   background: url('img/bg-desktop.webp');
   font-family: Bai Jamjuree;
